@@ -7,9 +7,14 @@
 body {
     background-color: #add8e6;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 2000px;
 }
 
 a {
+    all: unset;
+}
+
+button {
     all: unset;
 }
 
@@ -37,12 +42,12 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 30px 240px;
+    padding: 20px 160px;
     /*background-color: #daa520;*/
 }
 
 .header-container .container > div {
-    padding: 15px; 
+    padding: 20px; 
 }
 
 .header-container .container #link{
@@ -55,41 +60,40 @@ header {
     display: flex;
     list-style-type: none;
     justify-content: center;
-    font-size: 30px;
+    font-size: 15px;
     font-weight: 500;
 }
 
 .header-container .container #link ul li a {
-    padding: 40px;
+    padding: 26px;
 }
 
 
 .header-container .container #logo{
     display: flex;
-    width: 300px;
+    width: 200px;
     flex-shrink: 0;
     align-items: center;
 }
 
 .header-container .container #logo img {
-    width: 250px;
+    width: 150px;
 }
 
 .header-container .container #login{
     display: flex;
     justify-content: flex-end;
-    width: 300px;
+    width: 200px;
     flex-shrink: 0;
 }
 
 
 .header-container .container #login button{
-    all: unset;
     background-color: white;
     color: black;
     border-radius: 40px;
-    padding: 25px 30px;
-    font-size: 25px;
+    padding: 16px 20px;
+    font-size: 15px;
 }
 
 
@@ -119,13 +123,13 @@ main > div:nth-child(even) {
     background-color: #00008b;
     margin-bottom: 5px; 
     background-image: url(/img/jumbo.png);
-    height: 1000px;
+    height: 700px;
     background-size: cover;
     
 }
 
 .container-line1 .sub-container {
-    width: 1400px;
+    width: 1000px;
 }
 
 .container-line1 .sub-container .jumbo {
@@ -134,31 +138,34 @@ main > div:nth-child(even) {
 }
 
 .container-line1 .sub-container .jumbo h2 {
-    font-size: 90px;
+    font-size: 60px;
     font-weight: bolder;
-    padding-bottom: 60px;
+    padding-bottom: 40px;
 }
 
 .container-line1 .sub-container .jumbo p {
-    font-size: 40px;
+    font-size: 25px;
     line-height: 60px;
     
 }
 
 .jumbo .buttons {
     display: flex;
-    padding: 45px;
+    padding: 30px;
     justify-content: center;
 }
 
 .jumbo .buttons > button {
-    all: unset;
-    padding: 25px 30px;
-    margin: 20px;
-    font-size: 40px;
+    padding: 16px 20px;
+    margin: 13px;
+    font-size: 25px;
     background-color: white;
     color: black;
     border-radius: 100px;
+}
+
+.jumbo .buttons > button:hover{
+    cursor: pointer;
 }
 
 .jumbo .buttons #broswer {
@@ -176,7 +183,7 @@ main > div:nth-child(even) {
 
 .container-repeat .sub-container {
     display: flex;
-    padding: 280px;
+    padding: 150px;
 }
 
 .container-repeat .sub-content1 {
@@ -184,21 +191,21 @@ main > div:nth-child(even) {
 }
 
 .container-repeat .sub-content2 {
-    width: 700px;
+    width: 500px;
     flex-shrink: 0;
     text-align: left;
-    padding-top: 60px;
-    margin-right: 200px;
+    padding-top: 40px;
+    margin-right: 140px;
 }
 
 .container-repeat .sub-content2 h2{
-    font-size: 90px;
-    padding-bottom: 30px;
+    font-size: 60px;
+    padding-bottom: 20px;
    
 }
 
 .container-repeat .sub-content2 p {
-    font-size: 35px;
+    font-size: 25px;
     line-height: 1.5;
 }
 
@@ -223,36 +230,48 @@ main > div:nth-child(even) {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    padding: 160px auto;
 }
 
 .line5 .sub-container {
-    height: 900px;
-    width: 1200px;
-    background-color: #228b22;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 70px;
+    padding-bottom: 200px;
+}
 
+.line5 .sub-container section{
+   text-align: center;
+}
+
+.line5 .sub-container section h2 {
+    font-size: 60px;
 }
 /*    / Main-Line5     */
 
+
+
+/*       /Main     */
+
+
+/*    Footer     */
 /*    / Main-Line6    */
 #line6 {
     display: flex;
-    height: 630px;
+    height: 420px;
     background-color: #23272a;
-    padding-top: 10px;
-    padding-bottom: 40px;
+    padding-top: 7px;
+    padding-bottom: 25px;
     justify-content: center;
     border-bottom: 2px solid #9a9a9a;
 }
 
 #line6 .sub-container {
-    width: 1200px;
-    height: 500px;
     display: flex;
 }
 
 #line6 .sub-content1 {
-    width: 250px;
     flex-shrink: 0;
     background-color: #f08080;
 }
@@ -269,10 +288,6 @@ main > div:nth-child(even) {
 }
 /*    / Main-Line6   */
 
-/*       /Main     */
-
-
-/*    Footer     */
 .footer-line {
     height: 110px;
     display: flex;
