@@ -162,6 +162,8 @@ main > div:nth-child(even) {
     
 }
 
+/* Jumbotron Buttons  */
+
 .jumbo .buttons {
     display: flex;
     padding: 30px;
@@ -192,6 +194,8 @@ main > div:nth-child(even) {
 .jumbo .buttons > button a:hover {
     text-decoration: none;
 }
+
+/*  /   Jumbotron Buttons  */
 
 
 /*     /Main-Line1     */
@@ -302,6 +306,7 @@ main > div:nth-child(even) {
     background-size: contain;
 }
 
+/* Line 5 Section 2 Button  */
 .line5 .sub-container .section2 button{
     padding: 20px;
     text-align: center;
@@ -312,6 +317,7 @@ main > div:nth-child(even) {
     color:white;
     border-radius: 50px;
 }
+/*  /   Line 5 Section 2 Button  */
 
 /*   /Line5  section2  */
 /*    / Main-Line5     */
