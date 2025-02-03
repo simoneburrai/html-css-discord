@@ -19,9 +19,15 @@ button {
     all: unset;
 }
 
-a:hover, button:hover, i:hover{
+a:hover, button:hover {
     text-decoration: underline;
     cursor: pointer;
+}
+
+i:hover {
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 50%;
 }
 
 .flex-and-center {
