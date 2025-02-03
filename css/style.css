@@ -104,12 +104,11 @@ header {
 /*       Main     */
 
 .main-container {
-    height: 600px;
     padding: 140px auto;
 }
 
 main {
-    background-color: #d3d3d3;
+    background-color: #f6f6f6;
 }
 
 main > div:nth-child(even) {
@@ -177,26 +176,36 @@ main > div:nth-child(even) {
 .container-repeat {
     display: flex;
     justify-content: center;
-    align-items: center;
+   margin: auto 0;
 }
 
 .container-repeat .sub-container {
     display: flex;
-    background-color: #ee82ee;
-    height: 500px;
-    width: 1200px;
+    padding: 280px;
 }
 
 .container-repeat .sub-content1 {
-    background-color: #1e90ff;
     flex-grow: 1;
+    margin:0;
 }
 
 .container-repeat .sub-content2 {
-    background-color: #ffc0cb;
-    width: 480px;
+    width: 700px;
     flex-shrink: 0;
+    text-align: left;
+    padding-top: 60px;
 }
+
+.container-repeat .sub-content2 h2{
+    font-size: 90px;
+    padding-bottom: 30px;
+}
+
+.container-repeat .sub-content2 p {
+    font-size: 35px;
+    line-height: 1.5;
+}
+
 /*     /Main-Line2     */
 
 /*     /Main-Line3    */
