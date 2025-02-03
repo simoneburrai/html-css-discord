@@ -177,10 +177,15 @@ main > div:nth-child(even) {
 }
 
 .jumbo .buttons > button:hover {
-    border: solid 4px white;
-    background-color: unset;
+    border-top: solid 5px #90aefb;
+    border-right: solid 5px #90aefb;
+    text-decoration: none;
+    padding: 18px 22px;
 }
 
+.jumbo .buttons > button a:hover {
+    text-decoration: none;
+}
 
 
 /*     /Main-Line1     */
