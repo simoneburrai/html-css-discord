@@ -2,6 +2,8 @@
 
 Nell'esercizio di oggi (salvato come progetto n.8) andremo a replicare un'immagine contente una pagina del sito discord, cercando di essere il più fedeli possibile.
 
+**Nota ai tutor:** *sono al corrente degli errori per quanto riguarda i bottoni e gli anchor, a mia discolpa: volevo solo provare*
+
 ## Info
 
 Per la realizzazione di questo progetto è necessario conoscere sia gli **elementi HTML**, dagli elementi generici a quelli semantici, sia i **Cascading Style Sheets**, dai selettori alle loro proprietà e soprattutto come funziona il modulo **Flexbox**.
