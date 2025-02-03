@@ -6,16 +6,24 @@
 
 body {
     background-color: #add8e6;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    width: 2800px;
 }
 
+a {
+    all: unset;
+}
+/*
 .dashed-border {
     border: black 2px dashed;
 }
+/*
 /*      Header      */
-
+header {
+    background-color: #255ee9;
+    color: white;
+}
 .header-container {
-    height: 80px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -23,8 +31,10 @@ body {
  
 .header-container .container {
     display: flex;
-    width: 1200px;
-    background-color: #daa520;
+    justify-content: space-between;
+    width: 100%;
+    padding: 40px 240px;
+    /*background-color: #daa520;*/
 }
 
 .header-container .container > div {
@@ -32,18 +42,35 @@ body {
 }
 
 .header-container .container .right-left {
-    width: 240px;
     flex-shrink: 0;
 }
 
 .header-container .container #link{
     flex-grow: 1;
+    padding-right: 450px;
+    padding-left: 450px;
     text-align: center;
 }
+
+.header-container .container #link ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-evenly;
+    font-size: 25px;
+    text-align: center;
+}
+
+#list-link
+
+
 
 .header-container .container #logo{
     flex-grow: 1;
     text-align:start;
+}
+
+.header-container .container #logo img {
+    width: 250px;
 }
 
 .header-container .container #login{
