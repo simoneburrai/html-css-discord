@@ -1,3 +1,5 @@
+
+/* General Setups */
 * {
     box-sizing: border-box;
     margin: 0;
@@ -21,11 +23,22 @@ a:hover {
     cursor: pointer;
 }
 
+
+.flex-and-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /*
 .dashed-border {
     border: black 2px dashed;
-}
-/*
+} /*
+
+
+/* General Setups */
+
+
+
 /*      Header      */
 header {
     background-color: #255ee9;
@@ -114,11 +127,7 @@ main > div:nth-child(even) {
 }
 
 /*     Main-Line1     */
-
 .container-line1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     background-color: #00008b;
     margin-bottom: 5px; 
     background-image: url(/img/jumbo.png);
@@ -226,9 +235,6 @@ main > div:nth-child(even) {
 
 /*     Main-Line5     */
 .line5 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     padding: 160px auto;
 }
 
@@ -240,6 +246,7 @@ main > div:nth-child(even) {
     padding-bottom: 200px;
 }
 
+/* Line5 section1  */
 .line5 .sub-container .section1{
     width: 60%;
     margin: auto;
@@ -251,15 +258,16 @@ main > div:nth-child(even) {
     padding-bottom: 25px;
 }
 
+.line5 .sub-container section p {
+    font-size: 30px;
+}
+/* Line5 /section1  */
+
 .line5 .sub-container img {
     margin: 0 auto;
 }
 
-
-.line5 .sub-container section p {
-    font-size: 30px;
-}
-
+/* Line5  section2  */
 .line5 .sub-container .section2 {
     display: flex;
     flex-direction: column;
@@ -290,19 +298,12 @@ main > div:nth-child(even) {
     color:white;
     border-radius: 50px;
 }
-
-
-
+/*   /Line5  section2  */
 /*    / Main-Line5     */
-
-
-
-/*       /Main     */
-
+/*       /  Main     */
 
 /*    Footer     */
-/*    / Main-Line6    */
-
+/*    / footer-Line6    */
 footer {
     background-color: #23272a;
 }
@@ -322,6 +323,7 @@ footer {
     margin: auto 0;
 }
 
+/* Footer line 6 subcontent1 */
 #line6 .sub-content1 {
     width: 280px;
     flex-shrink: 0;
@@ -336,13 +338,14 @@ footer {
 #line6 .sub-content1 .social-icons i {
     padding: 10px;
 }
-
+/*     /Footer line 6 subcontent1 */
 
 #line6 .sub-content2 {
     flex-grow: 1;
     display: flex;
 }
 
+/* Footer line 6 subcontent2 - columns */
 #line6 .sub-content2 .column-content {
     padding-right: 100px;
     flex-grow: 1;
@@ -357,12 +360,11 @@ footer {
     color: #7288da;
     font-size: bold;
 }
-/*    / Main-Line6   */
+/* /  Footer line 6 subcontent2 - columns */
+/*    / Footer-Line6   */
 
+/*    Footer-Line   */
 .footer-line {
-    display: flex;
-    align-items:flex-end;
-    justify-content: center;
     padding-bottom: 80px;
 }
 
@@ -379,6 +381,7 @@ footer {
     padding: 12px;
 }
 
+/* Footer register button  */
 .f-element button {
     padding: 15px;
     text-align: center;
@@ -388,8 +391,8 @@ footer {
     color:white;
     border-radius: 50px;
 }
-
-
+/* /Footer register button  */
+/*   / Footer-Line   */
 /*    Footer     */
 
 
