@@ -273,19 +273,19 @@ main > div:nth-child(even) {
 }
 
 .line5 .sub-container .section2 h3 {
-    font-size: 30px;
-    padding: 40px;
+    font-size: 40px;
+    padding: 50px;
     background-image: url(/img/stars.svg);
     background-repeat: no-repeat;
     background-size: contain;
 }
 
 .line5 .sub-container .section2 button{
-    padding: 15px;
+    padding: 20px;
     text-align: center;
     align-self: center;
-    width: 150px;
-    font-size: 15px;
+    width: 200px;
+    font-size: 20px;
     background-color: #7288da;
     color:white;
     border-radius: 50px;
@@ -316,15 +316,27 @@ footer {
 #line6 .sub-container {
     display: flex;
     color: white;
-    font-size: 20px;
+    font-size: 15px;
     line-height: 2;
     padding: 0 200px;
+    margin: auto 0;
 }
 
 #line6 .sub-content1 {
-    width: 200px;
+    width: 280px;
     flex-shrink: 0;
 }
+
+#line6 .sub-content1 .social-title {
+    color: #7288da;
+    font-size: 30px;
+    line-height: 1;
+}
+
+#line6 .sub-content1 .social-icons i {
+    padding: 10px;
+}
+
 
 #line6 .sub-content2 {
     flex-grow: 1;
@@ -332,35 +344,52 @@ footer {
 }
 
 #line6 .sub-content2 .column-content {
-    padding-right: 200px;
+    padding-right: 100px;
     flex-grow: 1;
+    padding-bottom: 60px;
 }
 
 #line6 .sub-content2 .column-content ul {
     list-style-type: none;
 }
+
+#line6 .sub-content2 .column-content h4 {
+    color: #7288da;
+    font-size: bold;
+}
 /*    / Main-Line6   */
 
 .footer-line {
-    height: 110px;
     display: flex;
     align-items:flex-end;
     justify-content: center;
+    padding-bottom: 80px;
 }
 
 .footer-line .sub-container {
     display: flex;
     width: 1200px;
-    height: 80px;
-    background-color: #7fffd4;
+    border-top: solid 1px #7288da;
     justify-content: space-between;
     align-items: center;
+    padding-top: 15px;
 }
 
 .f-element {
-    background-color: #ffb6c1;
-    padding: 8px;
+    padding: 12px;
 }
+
+.f-element button {
+    padding: 15px;
+    text-align: center;
+    align-self: center;
+    font-size: 12px;
+    background-color: #7288da;
+    color:white;
+    border-radius: 50px;
+}
+
+
 /*    Footer     */
 
 
