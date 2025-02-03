@@ -7,7 +7,6 @@
 body {
     background-color: #add8e6;
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-    width: 2800px;
 }
 
 a {
@@ -103,10 +102,6 @@ header {
 
 /*       Main     */
 
-.main-container {
-    padding: 140px auto;
-}
-
 main {
     background-color: #f6f6f6;
 }
@@ -176,7 +171,7 @@ main > div:nth-child(even) {
 .container-repeat {
     display: flex;
     justify-content: center;
-   margin: auto 0;
+    margin: auto 0;
 }
 
 .container-repeat .sub-container {
@@ -186,7 +181,6 @@ main > div:nth-child(even) {
 
 .container-repeat .sub-content1 {
     flex-grow: 1;
-    margin:0;
 }
 
 .container-repeat .sub-content2 {
@@ -194,11 +188,13 @@ main > div:nth-child(even) {
     flex-shrink: 0;
     text-align: left;
     padding-top: 60px;
+    margin-right: 200px;
 }
 
 .container-repeat .sub-content2 h2{
     font-size: 90px;
     padding-bottom: 30px;
+   
 }
 
 .container-repeat .sub-content2 p {
