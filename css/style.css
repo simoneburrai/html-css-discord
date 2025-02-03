@@ -117,7 +117,6 @@ header {
 /*      /Header      */
 
 /*       Main     */
-
 main {
     background-color: #f6f6f6;
 }
@@ -363,12 +362,12 @@ footer {
 /* /  Footer line 6 subcontent2 - columns */
 /*    / Footer-Line6   */
 
-/*    Footer-Line   */
-.footer-line {
+/*    Footer-Bottom-Line   */
+.footer-bottom-line {
     padding-bottom: 80px;
 }
 
-.footer-line .sub-container {
+.footer-bottom-line .sub-container {
     display: flex;
     width: 1200px;
     border-top: solid 1px #7288da;
@@ -392,7 +391,7 @@ footer {
     border-radius: 50px;
 }
 /* /Footer register button  */
-/*   / Footer-Line   */
+/*   / Footer-bottom-Line   */
 /*    Footer     */
 
 
