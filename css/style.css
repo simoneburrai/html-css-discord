@@ -6,7 +6,7 @@
 
 body {
     background-color: #add8e6;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     width: 2800px;
 }
 
@@ -38,7 +38,7 @@ header {
     display: flex;
     justify-content: space-between;
     width: 100%;
-    padding: 45px 240px;
+    padding: 30px 240px;
     /*background-color: #daa520;*/
 }
 
@@ -93,6 +93,7 @@ header {
     font-size: 25px;
 }
 
+
 .header-container .container #login button:hover {
     cursor: pointer;
 }
@@ -130,11 +131,46 @@ main > div:nth-child(even) {
 }
 
 .container-line1 .sub-container {
-    background-color: #ee82ee;
-    height: 400px;
-    width: 900px;
+    width: 1400px;
 }
 
+.container-line1 .sub-container .jumbo {
+    color: white;
+    text-align: center;
+}
+
+.container-line1 .sub-container .jumbo h2 {
+    font-size: 90px;
+    font-weight: bolder;
+    padding-bottom: 60px;
+}
+
+.container-line1 .sub-container .jumbo p {
+    font-size: 40px;
+    line-height: 60px;
+    
+}
+
+.jumbo .buttons {
+    display: flex;
+    padding: 45px;
+    justify-content: center;
+}
+
+.jumbo .buttons > button {
+    all: unset;
+    padding: 25px 30px;
+    margin: 20px;
+    font-size: 40px;
+    background-color: white;
+    color: black;
+    border-radius: 100px;
+}
+
+.jumbo .buttons #broswer {
+    background-color: #23272a;
+    color: white;
+}
 /*     /Main-Line1     */
 
 /*     Main-Line2    */
