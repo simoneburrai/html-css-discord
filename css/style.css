@@ -19,10 +19,9 @@ button {
     all: unset;
 }
 
-a:hover {
+a:hover, button:hover, i:hover{
     cursor: pointer;
 }
-
 
 .flex-and-center {
     display: flex;
