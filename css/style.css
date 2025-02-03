@@ -223,8 +223,7 @@ main > div:nth-child(even) {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 1000px;
-    padding: 140px auto;
+    
 }
 
 .line5 .sub-container {
